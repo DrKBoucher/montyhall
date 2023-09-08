@@ -1,0 +1,12 @@
+Package: montyhall
+Title: Play and Loop the Let's Make a Deal Door Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Kristen", "Boucher", , "dr.kristen.boucher@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0004-5652-2008"))
+Description: This replicates the door game where there are three doors for a player to choose from, one that has a car behind it and two that have goats. The player picks a door, then the host opens another door to reveal a goat, and then the player chooses to to stay with their original selection or switch to the other unopened door. The player is determined a winner if the final door selection has a car behind it. It then loops the game multiple times to calculate the probability of winning or losing based on whether the player stays with the original door or picks a different door in the end. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
